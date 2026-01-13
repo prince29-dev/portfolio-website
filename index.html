@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio of an Engineering Student specializing in Web Development, DSA, and AI/ML.">
+    <title>Portfolio | Engineering & Development</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">PR<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact" class="btn-primary">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h2 class="pre-title">Engineering Student & Developer</h2>
+                <h1>Building scalable solutions through <span class="highlight">code and logic.</span></h1>
+                <p>Focused on full-stack development, algorithmic efficiency, and the intersection of AI and web technology.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary">View Projects</a>
+                    <a href="#experience" class="btn-secondary">Technical Journey</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container grid-2">
+            <div class="about-text scroll-reveal">
+                <h2 class="section-title">About Me</h2>
+                <p>I am a second-year engineering student driven by a passion for solving complex problems. My approach combines rigorous engineering principles with modern development practices to create impactful digital experiences.</p>
+                <p>Currently, I am deep-diving into distributed systems and exploring how machine learning can optimize user interfaces. I thrive in competitive environments like hackathons and contribute actively to open-source communities.</p>
+            </div>
+            <div class="about-stats scroll-reveal">
+                <div class="stat-card">
+                    <h3>10+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-card">
+                    <h3>3+</h3>
+                    <p>Hackathons Won</p>
+                </div>
+                <div class="stat-card">
+                    <h3>500+</h3>
+                    <p>DSA Problems</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Technical Proficiency</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>HTML5, CSS3, JavaScript (ES6+), Responsive Design</p>
+                </div>
+                <div class="skill-category">
+                    <i class="fas fa-brain"></i>
+                    <h3>Computer Science</h3>
+                    <p>Data Structures, Algorithms, OOPs, DBMS</p>
+                </div>
+                <div class="skill-category">
+                    <i class="fas fa-git-alt"></i>
+                    <h3>Tools & Versioning</h3>
+                    <p>Git, GitHub, Docker basics, Linux/Bash</p>
+                </div>
+                <div class="skill-category">
+                    <i class="fas fa-robot"></i>
+                    <h3>ML & Data</h3>
+                    <p>Python, NumPy, Pandas, Scikit-learn basics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card scroll-reveal">
+                    <div class="project-img" style="background: linear-gradient(135deg, #6366f1, #a855f7);"></div>
+                    <div class="project-info">
+                        <h3>SecureAuth System</h3>
+                        <p>A robust authentication system implementing JWT and encryption standards for secure user data handling.</p>
+                        <div class="tags">
+                            <span>Security</span>
+                            <span>Node.js</span>
+                        </div>
+                        <a href="#" class="project-link">View Repository <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-card scroll-reveal">
+                    <div class="project-img" style="background: linear-gradient(135deg, #3b82f6, #2dd4bf);"></div>
+                    <div class="project-info">
+                        <h3>AlgoViz Dashboard</h3>
+                        <p>Interactive visualization of sorting and searching algorithms to aid educational understanding of time complexity.</p>
+                        <div class="tags">
+                            <span>DSA</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">View Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Experience & Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="time-dot"></div>
+                    <div class="time-content">
+                        <h4>Open Source Contributor</h4>
+                        <p class="time-org">Global Tech Initiative</p>
+                        <p>Contributing to core UI components and documentation, ensuring cross-browser compatibility and accessibility.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="time-dot"></div>
+                    <div class="time-content">
+                        <h4>Hackathon Finalist</h4>
+                        <p class="time-org">Smart City Solutions 2025</p>
+                        <p>Developed an AI-driven traffic management prototype using Python and real-time data APIs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h2>Let's connect.</h2>
+            <p>I am always open to discussing new projects, internship opportunities, or open-source collaborations.</p>
+            <div class="social-links">
+                <a href="https://github.com/yourusername"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://linkedin.com/in/yourusername"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="mailto:yourname@email.com"><i class="fas fa-envelope"></i> Email</a>
+            </div>
+            <p class="copyright">&copy; 2026 Professional Portfolio. Built with standard-compliant HTML/CSS.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
